@@ -26,6 +26,9 @@ function calcular() {
         let qtdTotalLinguica = linguicaPP(duracao) * adultos + (linguicaPP(duracao) / 2 * criancas);
         let qtdTotalCerveja = cervejaPP(duracao) * adultos;
         let qtdTotalBebidas = bebidasPP(duracao) * adultos + (bebidasPP(duracao) / 2 * criancas);
+
+        
+        resultado.innerHTML = `<h3>Você vai precisar de:</h3>`;
         
         resultado.innerHTML = `<p>
                                     <img class="f-left" src="./images/bife.png" alt="Carne"/>  
