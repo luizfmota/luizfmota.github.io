@@ -28,27 +28,27 @@ function calcular() {
         let qtdTotalBebidas = bebidasPP(duracao) * adultos + (bebidasPP(duracao) / 2 * criancas);
         
         resultado.innerHTML = `<p>
-                                    <img class="f-left" src="./images/bife.png"/>  
+                                    <img class="f-left" src="./images/bife.png" alt="Carne"/>  
                                         ${qtdTotalCarne / 1000} Kg de Carne  
-                                    <img class="f-right" src="./images/bife.png"/>
+                                    <img class="f-right" src="./images/bife.png" alt="Carne"/>
                                 </p>`;
 
         resultado.innerHTML += `<p>
-                                    <img class="f-left" src="./images/linguica.png"/>  
+                                    <img class="f-left" src="./images/linguica.png" alt="Linguiça"/>  
                                         ${qtdTotalLinguica / 1000} Kg de Linguiça  
-                                    <img class="f-right" src="./images/linguica.png"/>
+                                    <img class="f-right" src="./images/linguica.png" alt="Linguiça"/>
                                 </p>`;
 
         resultado.innerHTML += `<p>
-                                    <img class="f-left" src="./images/beer.png"/>  
+                                    <img class="f-left" src="./images/beer.png" alt="Cerveja"/>  
                                         ${Math.ceil(qtdTotalCerveja / 355)} latas de Cerveja  
-                                    <img class="f-right" src="./images/beer.png"/>
+                                    <img class="f-right" src="./images/beer.png" alt="Cerveja"/>
                                 </p>`;
 
         resultado.innerHTML += `<p>
-                                    <img class="f-left" src="./images/refrigerante.png"/>  
-                                        ${Math.ceil(qtdTotalBebidas / 2000)} Pet de 2L de Bebida  
-                                    <img class="f-right" src="./images/refrigerante.png"/>
+                                    <img class="f-left" src="./images/refrigerante.png" alt="Refrigerante"/>  
+                                        ${Math.ceil(qtdTotalBebidas / 2000)} Pet's de 2L de Bebida  
+                                    <img class="f-right" src="./images/refrigerante.png" alt="Refrigerante"/>
                                 </p>`;
     }
 }
