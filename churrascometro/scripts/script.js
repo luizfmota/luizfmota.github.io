@@ -47,7 +47,7 @@ function calcular() {
 
         resultado.innerHTML += `<p>
                                     <img class="f-left" src="./images/refrigerante.png"/>  
-                                        ${Math.ceil(qtdTotalBebidas / 2000)} Pet's de 2l de Bebidas  
+                                        ${Math.ceil(qtdTotalBebidas / 2000)} Pet de 2L de Bebida  
                                     <img class="f-right" src="./images/refrigerante.png"/>
                                 </p>`;
     }
