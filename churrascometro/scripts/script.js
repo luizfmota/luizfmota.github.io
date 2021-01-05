@@ -24,7 +24,7 @@ function calcular() {
     
     resultado.innerHTML = `<p><img class="f-left" src="./images/bife.png"/>  ${qtdTotalCarne / 1000} Kg de Carne  <img class="f-right" src="./images/bife.png"/></p>`;
     resultado.innerHTML += `<p><img class="f-left" src="./images/linguica.png"/>  ${qtdTotalLinguica / 1000} Kg de Linguiça  <img class="f-right" src="./images/linguica.png"/></p>`;
-    resultado.innerHTML += `<p><img class="f-left" src="./images/beer.png"/>  ${Math.ceil(qtdTotalCerveja / 355)} latas de Cerveja  <img class="f-right" src="./images/beer.png"/></p>`;
+    resultado.innerHTML += `<p><img class="f-left" src="./images/beer.png"/>  ${Math.ceil(qtdTotalCerveja / 355)} Latas de Cerveja  <img class="f-right" src="./images/beer.png"/></p>`;
     resultado.innerHTML += `<p><img class="f-left" src="./images/refrigerante.png"/>  ${Math.ceil(qtdTotalBebidas / 2000)} Pet's de 2l de Bebidas  <img class="f-right" src="./images/refrigerante.png"/></p>`;
 }
 
