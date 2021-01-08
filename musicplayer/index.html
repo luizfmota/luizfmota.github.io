@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="controle">
+            <img id="play-pause" class="btn" onclick="playAudio()" src="./images/play-fill.svg" />
+            <img id="stop" class="btn" onclick="stopAudio()" src="./images/stop-fill.svg" />
+            <img id="volumeDown" class="btn" onclick="volumeDown()" src="./images/volume-down-fill.svg" />
+            <input id="volumeBar" class="volumeBar" oninput="volume()" type="range" min="0" max="1" step="0.1" value="1" />
+            <img id="volumeUp" class="btn" onclick="volumeUp()" src="./images/volume-up-fill.svg" />
+        </div>
+        <div class="img">
+            <img class="cover" src="./images/happyrock.jpg" />
+
+            <p id="audioCurrentTime" class="time">0:00</p>
+            <progress id="progress" max="" value=""></progress>
+            <p id="audioDuration" class="time"></p>
+            <audio id="audio1">
+                <source src="./songs/happyrock.mp3" type="audio/mpeg" />
+            </audio>
+        </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

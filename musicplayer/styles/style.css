@@ -1,0 +1,29 @@
+audio{
+    display: block;
+    margin: 0 auto;
+}
+.container {
+    text-align: center;
+}
+
+.btn {
+    width: 32px;
+    cursor: pointer;
+    padding: 5px;
+
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.volumeBar {
+    padding: 15px 0;
+}
+
+.cover {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.time {
+    display: inline;
+}
