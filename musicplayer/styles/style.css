@@ -27,3 +27,7 @@ audio{
 .time {
     display: inline;
 }
+
+.credit {
+    font-size: 12px;
+}
